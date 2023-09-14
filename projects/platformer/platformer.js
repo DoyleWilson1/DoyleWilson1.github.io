@@ -83,7 +83,7 @@ createCannon("bottom",350,700)
 createCannon("bottom",975,700)
 createCannon("top",775,700)
 createCannon("left", 650, 1)
-createCannon("left",475,2550)
+createCannon("left",460,2600)
 
 
 
