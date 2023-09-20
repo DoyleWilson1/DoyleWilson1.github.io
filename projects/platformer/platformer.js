@@ -47,7 +47,7 @@ createPlatform(0,610,300,70)
 createPlatform(0,370,300,50)
 createPlatform(1100,610,300,70)
 createPlatform(1100,370,300,50)
-createPlatform(500,500,450,50)
+createPlatform(470,500,500,75)
 createPlatform(500,250,450,50)
 createPlatform(0,120,150,50)
 
