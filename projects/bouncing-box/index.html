@@ -7,8 +7,8 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.box {
-			width: 100px;
-			height: 100px;
+			width: 75px;
+			height: 79px;
 			background-color: rgb(250, 247, 247);
 			font-size: 400%;
 			text-align: center;
@@ -16,13 +16,14 @@
 			display: block;
 			position: absolute;
 			top: 100px;
-			left: 0px; /* <--- Change me! */
+			left: 10px; /* <--- Change me! */
+			background-image: url(https://ih1.redbubble.net/image.2252657367.1171/flat,750x,075,f-pad,750x1000,f8f8f8.jpg);
 		}
 
 		.board {
 			height: 100vh;
-			background-image: url("TrainingGrounds.png");
-			background-repeat: no-repeat;
+			background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOG90pxW4_RxbOf2ZERW1oKMyBlxmvUqUf14uu8kJtg&s);
+			
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -69,7 +70,7 @@
 			//////////////////////////////////////////////////////////////////
 
 			// TODO 2 - Variable declarations 
-			var positionX = 1;
+			var positionX = 2;
 			var points = 1;
 			var speedX = 10;
 			var positionY = 1;
@@ -113,16 +114,16 @@
 				changeBoxText(points);
 				points = points + 1
 				if (speedX > 0) {
-					speedX = speedX + 3
+					speedX = speedX + 5
 				}
 				else if (speedX < 0) {
-					speedX = speedX - 3
+					speedX = speedX - 5
 				}
 				if (speedY > 0){
-					speedY = speedY + 3
+					speedY = speedY + 5
 				}
 				else if (speedY < 0){
-					speedY = speedY + 3
+					speedY = speedY + 5
 				}
 
 
